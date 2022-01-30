@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: It is an actively developing language, but not yet ready for industrial use.
+- text: It is a pragmatic language designed to solve real-world problems.
+- text: It is a training programming language designed to teach students.
+- text: It is an academic language designed to explore innovative ideas in computer
+    science.
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4353#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Fri, 21 Jan 2022 13:37:20 UTC
+record: -1
+selected_options:
+- 1

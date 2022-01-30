@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    val captain = Pirate("Hector Barbossa")
+    println(captain.name) // Do not touch this line
+    // put your code here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11244#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:9:5: error: val cannot be reassigned
+        captain = Pirate("Jack Sparrow")
+        ^
+  time: Mon, 24 Jan 2022 12:30:12 UTC
+record: -1
